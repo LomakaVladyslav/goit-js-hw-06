@@ -11,9 +11,7 @@ class Storage {
     this.#items.push(newItem);
   }
   removeItem(itemToRemove) {
-    const itemIndex = this.#items.includes(`itemToRemove`);
-    this.items = this.#items.filter(item => item !== itemToRemove);
-    console.log(itemToRemove)
+    this.#items = this.#items.filter(item => item !== itemToRemove);
   }
 }
   
